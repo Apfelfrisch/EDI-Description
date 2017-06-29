@@ -1,0 +1,19 @@
+{
+    "name": "proengeno/edi-description",
+    "require": { 
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Proengeno\\EdiDescription\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]   
+    }
+}
