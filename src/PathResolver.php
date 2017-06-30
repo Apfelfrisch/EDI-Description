@@ -5,7 +5,7 @@ namespace Proengeno\EdiDescription;
 class PathResolver
 {
     private static $descriptions = [
-        'utilmd' => __DIR__ . '/utilmd-description.php'
+        'utilmd' => '/utilmd-description.php'
     ];
 
     public static function getFor($description)
@@ -13,7 +13,7 @@ class PathResolver
         $lowerDescription = strtolower($description);
 
         if (isset(static::$descriptions[$lowerDescription])) {
-            return static::$descriptions[$lowerDescription];
+            return __DIR__ . static::$descriptions[$lowerDescription];
         }
 
         throw new \InvalidArgumentException("No Descriptionfile for '$description'.");
