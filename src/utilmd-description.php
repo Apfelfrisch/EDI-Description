@@ -1,6 +1,7 @@
 <?php
 return [
     'name' => 'Utilmd Segment Beschreibung',
+
     'bgm_type' => [
         'E01' => 'Anmeldung (Netznutzung)',
         'E02' => 'Abmeldung (Netznutzung)',
@@ -29,6 +30,22 @@ return [
         'ZC8' => 'Beendigung der Zuordnung',
         'ZC9' => 'Aufhebung einer zukünftigen Zuordnung',
         'ZD2' => 'Ersatzversorgung',
+        'ZF0' => 'Bila.rel. Änderung vom NB',
+        'ZE6' => 'Nicht bila.rel. Änderung vom LF',
+        'ZE7' => 'Nicht bila.rel. Änderung vom NB',
+        'ZE8' => 'Änderung vom MSB mit Abhängigkeiten',
+        'ZE9' => 'Bila.rel. Änderung vom LF',
+        'ZF1' => 'Änderung der Bilanzierungsgrundlage',
+        'ZF2' => 'Korrektur der ID der Markt- bzw. Messlokation bzw. Tranche vom NB',
+        'ZF3' => 'Nicht bila.rel. Anfrage an LF',
+        'ZF4' => 'Nicht bila.rel. Anfrage an NB',
+        'ZF5' => 'Anfrage an MSB mit Abhängigkeiten',
+        'ZF6' => 'Bila.rel. Anfrage an LF ',
+        'ZF7' => 'Bila.rel. Anfrage an NB ohne Abhängigkeiten',
+        'ZF8' => 'Nicht bila.rel. Anfrage an NB',
+        'ZF9' => 'Bila.rel. Anfrage an NB mit Abhängigkeiten',
+        'ZF8' => 'Nicht bila.rel. Anfrage an NB',
+        'ZF8' => 'Nicht bila.rel. Anfrage an NB',
     ],
 
     'answer' => [
