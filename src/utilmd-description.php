@@ -75,6 +75,8 @@ return [
         'Z44' => 'Zustimmung mit Korrektur von nicht bilanzierungsrel. Daten',
         'Z47' => 'Änderungsmitteilung von bilanzierungsrel. Daten',
         'ZC5' => 'Ablehnung (andere Anmeldung in Bearbeitung)',
+        'ZD5' => 'Ablehnung untermonatlicher Wechseltermin',
+        'ZD6' => 'Ablehnung unplausible Dateninhalte',
         'ZE0' => 'Ablehnung Stammdaten richtig',
         'ZE1' => 'Ablehnung zu stornierender Vorgang wurde schon beantwortet',
         'ZE2' => 'Ablehnung Kapazitätsprobleme',
