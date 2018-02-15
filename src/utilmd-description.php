@@ -80,5 +80,49 @@ return [
         'ZE0' => 'Ablehnung Stammdaten richtig',
         'ZE1' => 'Ablehnung zu stornierender Vorgang wurde schon beantwortet',
         'ZE2' => 'Ablehnung Kapazitätsprobleme',
-    ]
+    ],
+
+    'supply_direction' => [
+        'Z07' => 'Verbrauch',
+        'Z06' => 'Erzeugung',
+    ],
+
+    'profile_type' => [
+        'Z02' => 'Standardlastprofil',
+        'Z03' => 'Tagesparameterabhängiges Lastprofil',
+        'Z02' => 'Lastprofil',
+    ],
+
+    'profile_method' => [
+        'E01' => 'Synthetisch',
+        'Z10' => 'Analytisch',
+    ],
+
+    'accounting_base' => [
+        'E01' => 'RLM',
+        'E02' => 'SLP/SEP',
+        'E14' => 'TLP/TEP',
+        'E24' => 'TLP mit gemeinsamer Messung',
+        'Z29' => 'Pauschale Marktlokation',
+    ],
+
+    'customer_group' => [
+        'Z15' => 'Haushaltskunde',
+        'Z18' => 'Kein Haushaltskunde',
+    ],
+
+    'voltage_level' => [
+        'E03' => 'Höchstspannung',
+        'E04' => 'Hochspannung',
+        'E05' => 'Mittelspannung',
+        'E06' => 'Niederspannung',
+        'E07' => 'Hös/HS Umspannung',
+        'E08' => 'HS/MS Umspannung',
+        'E09' => 'MS/NS Umspannung',
+    ],
+
+    'reading_transfer_case' => [
+        'AMR' => 'fernauslesbare Zähler',
+        'MMR' => 'manuell ausgelesene Zähler',
+    ],
 ];
