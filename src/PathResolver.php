@@ -5,7 +5,9 @@ namespace Proengeno\EdiDescription;
 class PathResolver
 {
     private static $descriptions = [
-        'utilmd' => '/utilmd-description.php'
+        'utilmd' => '/utilmd-description.php',
+        'remadv' => '/remadv-description.php',
+        'invoic' => '/invoic-description.php',
     ];
 
     public static function getFor($description)
