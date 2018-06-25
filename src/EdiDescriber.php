@@ -11,15 +11,18 @@ class EdiDescriber
         $this->desciption = include(PathResolver::getFor($descriptionType));
     }
 
-    public static function getFor($descriptionType, $key, $value)
+    public static function getFor($descriptionType, $key, $value = null)
     {
         $instance = new static($descriptionType);
 
         return $instance->get($key, $value);
     }
 
-    public function get($key, $value)
+    public function get($key, $value = null)
     {
+        if ($value === null) {
+            return $this->desciption[$key] ?? [];
+        }
         return $this->desciption[$key][$value] ?? null;
     }
 }
