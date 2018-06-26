@@ -8,6 +8,7 @@ class PathResolver
         'utilmd' => '/utilmd-description.php',
         'remadv' => '/remadv-description.php',
         'invoic' => '/invoic-description.php',
+        'aperak' => '/aperak-description.php',
     ];
 
     public static function getFor($description)
