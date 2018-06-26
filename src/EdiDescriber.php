@@ -18,11 +18,20 @@ class EdiDescriber
         return $instance->get($key, $value);
     }
 
+    public static function getPossibilitiesFor($descriptionType, $key)
+    {
+        $instance = new static($descriptionType);
+
+        return $instance->possibilities($key);
+    }
+
     public function get($key, $value = null)
     {
-        if ($value === null) {
-            return $this->desciption[$key] ?? [];
-        }
         return $this->desciption[$key][$value] ?? null;
+    }
+
+    public function possibilities($key)
+    {
+        return $this->desciption[$key] ?? [];
     }
 }

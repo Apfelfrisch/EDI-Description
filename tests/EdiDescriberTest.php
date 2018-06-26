@@ -9,7 +9,7 @@ class EdiDescriberTest extends TestCase
     /** @test */
     public function it_provides_all_descriptions_for_the_given_key()
     {
-        $result = EdiDescriber::getFor('utilmd', 'answer');
+        $result = EdiDescriber::getPossibilitiesFor('utilmd', 'answer');
         $this->assertTrue(is_array($result));
     }
 
