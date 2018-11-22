@@ -49,4 +49,24 @@ return [
         '9990001000780' => 'Steuerbox',
         '9990001000798' => 'Entgelt für Messstellenbetrieb inklusive Messung',
     ],
+
+    'bgm_type' => [
+        '380' => 'Handelsrechnung',
+        '389' => 'Selbst ausgestellte Rechnung (engl.: "Self-billed invoice")',
+        '457' => 'Storno für Belastung',
+        'Z25' => 'Storno für selbst ausgestellte Rechnung (Gutschrift im Gutschriftsverfahren)',
+    ],
+
+    'invoice_type' => [
+        'ABR' => 'Abschlussrechnung',
+        'EMV' =>  'Abschlagsrechnung',
+        'ABS' =>  'Abschlagsrechnung',
+        'JVR' =>  'Turnusrechnung',
+        'MVR' =>  'Monatsrechnung',
+        'WIM' =>  'Rechnung für WiM',
+        'ZVR' =>  'Zwischenrechnung',
+        '13I' =>  'Integrierte 13.',
+        '13R' =>  '13. Rechnung',
+        'MSB' =>  'Rechnung für Messstellenbetrieb',
+    ],
 ];
