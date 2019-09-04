@@ -12,6 +12,7 @@ return [
         'E48' => 'Anmeldung Beistellung',
         'E50' => 'Abmeldung Beistellung',
         'Z08' => 'Neuzuordnung vom Zählpunkt',
+        'Z26' => 'Vorläufige Meldung zur Marktraumumstellung',
     ],
 
     'reason' => [
