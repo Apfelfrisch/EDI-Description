@@ -22,7 +22,7 @@ function edifactDesciption($type) : array
 
 function describe($descriptionType, $key, $value) : string
 {
-    return edifactDesciption($descriptionType)[$key][$value] ?? null;
+    return edifactDesciption($descriptionType)[$key][$value] ?? '';
 }
 
 function possibilities($descriptionType, $key) : array
