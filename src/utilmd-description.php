@@ -66,7 +66,6 @@ return [
     'profile_type' => [
         'Z02' => 'Standardlastprofil',
         'Z03' => 'Tagesparameterabhängiges Lastprofil',
-        'Z02' => 'Lastprofil',
     ],
 
     'profile_method' => [
