@@ -62,7 +62,7 @@ return [
         'Z07' => 'Verbrauch',
         'Z06' => 'Erzeugung',
     ],
-
+    //Wird nicht mehr benutzt
     'profile_type' => [
         'Z02' => 'Standardlastprofil',
         'Z03' => 'Tagesparameterabhängiges Lastprofil',
@@ -72,13 +72,24 @@ return [
         'E01' => 'Synthetisch',
         'Z10' => 'Analytisch',
     ],
-
+    //Wird nicht mehr benutzt
     'accounting_base' => [
         'E01' => 'RLM',
         'E02' => 'SLP/SEP',
         'E14' => 'TLP/TEP',
         'E24' => 'TLP mit gemeinsamer Messung',
         'Z29' => 'Pauschale Marktlokation',
+    ],
+    //Wahrscheinlich nur Strom
+    'time_series_type' => [
+        'LGS' => 'RLM', //Lastgangsumme
+        'SLS' => 'SLP', //Standardlastprofilsumme
+        'TLS' => 'TLP', //Tagesparameterabhängige Lastprofilsumme
+    ],
+    //Strom + Gas
+    'forecast_type' => [
+        'ZA6' => 'SLP',
+        'ZC0' => 'RLM',
     ],
 
     'customer_group' => [
