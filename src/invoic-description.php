@@ -22,7 +22,7 @@ return [
         '9990001000433' => 'Entgelt für Fernauslesung',
         '9990001000475' => 'Untermessung',
         '9990001000508' => 'Blindmehrarbeit',
-        '990001000532' => 'Entgelt für Abrechnung',
+        '9990001000532' => 'Entgelt für Abrechnung',
         '9990001000540' => 'Sperrkosten',
         '9990001000558' => 'Entsperrkosten',
         '9990001000566' => 'Mahnkosten',
