@@ -13,6 +13,7 @@ return [
         'E50' => 'Abmeldung Beistellung',
         'Z08' => 'Neuzuordnung vom Zählpunkt',
         'Z26' => 'Vorläufige Meldung zur Marktraumumstellung',
+        'Z38' => 'Synchronisationsmeldung',
     ],
 
     'reason' => [
@@ -46,7 +47,9 @@ return [
         'ZF8' => 'Nicht bila.rel. Anfrage an NB',
         'ZF9' => 'Bila.rel. Anfrage an NB mit Abhängigkeiten',
         'ZF8' => 'Nicht bila.rel. Anfrage an NB',
-        'ZF8' => 'Nicht bila.rel. Anfrage an NB',
+        'ZP0' => 'Stammdatensynchronisation Beginn der Aggregationsverantowrtung',
+        'ZP1' => 'Stammdatensynchronisation',
+        'ZP2' => 'Stammdatensynchronisation Korrektur des Beginns der Aggregationsverantowrtung',
     ],
 
     'accepted_answer' => include(__DIR__ . '/utilmd-accepted-answers.php'),
