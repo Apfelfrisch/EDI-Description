@@ -13,9 +13,9 @@ return [
         '9990001000160' => 'Reservenetzkapazität',
         '9990001000178' => 'Reserveleistung',
         '9990001000186' => 'Zusätzliche Ablesung',
-        '9990001000219' => 'Prüfgebühren (außerplanmäßig)',
+        '9990001000219' => 'Prüfgebühren',
         '9990001000269' => 'Wirkarbeit',
-        '9990001000285' => 'singulär genutzte Betriebsmittel (z. B. Trafomiete, Leitungen)',
+        '9990001000285' => 'singulär genutzte Betriebsmittel',
         '9990001000334' => 'Abgabe KWKG',
         '9990001000376' => 'Abschlag',
         '9990001000417' => 'Konzessionsabgabe',
@@ -37,7 +37,7 @@ return [
         '9990001000665' => 'Kommunikationseinrichtung',
         '9990001000673' => 'Technische Steuereinrichtung',
         '9990001000681' => '§ 19 StromNEV Umlage',
-        '9990001000699' => 'Befestigungseinrichtung (z. B. Zählertafel)',
+        '9990001000699' => 'Befestigungseinrichtung',
         '9990001000706' => 'Offshore-Haftungsumlage',
         '9990001000714' => 'Fixe Arbeitsentgeltkomponente',
         '9990001000722' => 'Fixe Leistungsentgeltkomponente',
@@ -52,9 +52,9 @@ return [
 
     'bgm_type' => [
         '380' => 'Handelsrechnung',
-        '389' => 'Selbst ausgestellte Rechnung (engl.: "Self-billed invoice")',
+        '389' => 'Selbst ausgestellte Rechnung',
         '457' => 'Storno für Belastung',
-        'Z25' => 'Storno für selbst ausgestellte Rechnung (Gutschrift im Gutschriftsverfahren)',
+        'Z25' => 'Storno für selbst ausgestellte Rechnung',
     ],
 
     'invoice_type' => [
