@@ -29,3 +29,11 @@ function possibilities($descriptionType, $key) : array
 {
     return edifactDesciption($descriptionType)[$key] ?? [];
 }
+
+function answerCode(string $energyType, int $checkId): string
+{
+    $answerCodes = include(__DIR__ . '/utilmd-answer-codes.php');
+
+    return $answerCodes[$energyType][$checkId]
+        ?? throw new \InvalidArgumentException("No Answer Code for '$energyType' with '$checkId'.");
+}
