@@ -37,3 +37,34 @@ function answerCode(string $energyType, int $checkId): string
     return $answerCodes[$energyType][$checkId]
         ?? throw new \InvalidArgumentException("No Answer Code for '$energyType' with '$checkId'.");
 }
+
+function acceptedAnswers(string $answerCode): array
+{
+    $answers = include(__DIR__ . '/utilmd-accepted-answer-cluster.php');
+
+    return $answers[$answerCode]
+        ?? throw new \InvalidArgumentException("No Accpeted Answers Code '$answerCode'.");
+}
+
+function deniedAnswers(string $answerCode): array
+{
+    $answers = include(__DIR__ . '/utilmd-denied-answer-cluster.php');
+
+    return $answers[$answerCode]
+        ?? throw new \InvalidArgumentException("No Accpeted Answers Code '$answerCode'.");
+}
+
+function describeAnswer(string $answerCode, string $answer): string
+{
+    try {
+        $answers = acceptedAnswers($answerCode);
+        try {
+            $answers = array_merge($answers, deniedAnswers($answerCode));
+        } catch (\InvalidArgumentException) { }
+    } catch (\InvalidArgumentException) {
+        $answers = deniedAnswers($answerCode);
+    }
+
+    return $answers[$answer]
+        ?? throw new \InvalidArgumentException("Answer '$answer' for '$answerCode' not found.");
+}

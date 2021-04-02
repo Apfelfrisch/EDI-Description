@@ -4,4 +4,5 @@ return [
     'Z01' => 'Zustimmung (Terminänderung)',
     'Z43' => 'Zustimmung mit Korrektur von bilanzierungsrel. Daten',
     'Z44' => 'Zustimmung mit Korrektur von nicht bilanzierungsrel. Daten',
+    'A11' => 'Zustimmung',
 ];
