@@ -357,6 +357,11 @@ des iMS',
     'G_0022' => [
         'ZJ5' => 'Lieferrichtung steht im Widerspruch zur gemeldeten Marktlokation',
     ],
+    'G_0023' => [
+        'E13' => 'Ablehnung (Bilanzierungsproblem)',
+        'E17' => 'Ablehnung wg. Fristüberschreitung',
+        'ZE2' => 'Ablehnung Kapazitätsproblem',
+    ],
     'G_0025' => [
         'E13' => 'Ablehnung (Bilanzierungsproblem)',
         'E17' => 'Ablehnung wg. Fristüberschreitung',
