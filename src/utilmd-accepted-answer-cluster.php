@@ -134,6 +134,9 @@ return [
     'S_0041' => [
         'ZG2' => 'Gültiges Ergebnis nach der Datenprüfung',
     ],
+    'S_0086' => [
+        'E15' => 'Zustimmung ohne Korrekturen',
+    ],
     'S_0099' => [
         'ZG2' => 'Gültiges Ergebnis nach der Datenprüfung',
     ],

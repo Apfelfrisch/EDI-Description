@@ -276,6 +276,11 @@ des iMS',
         'Z09' => 'Ablehnung (Transaktionsgrund unplausibel)',
         'Z14' => 'Ablehnung (Doppelmeldung)',
     ],
+    'S_0087' => [
+        'E14' => 'Ablehnung Sonstiges',
+        'Z14' => 'Ablehnung (Doppelmeldung)',
+        'ZE1' => 'Ablehnung – zu stornierender Vorgang wurde schon beantwortet',
+    ],
     'S_0098' => [
         'ZG0' => 'Ablehnung Stammdaten an der Markt- bzw. Messlokation nicht vorhanden',
         'ZD3' => 'Ablehnung – Verantwortlicher hat nicht geantwortet',
