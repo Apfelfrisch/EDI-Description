@@ -21,5 +21,7 @@ return [
         'Z29' =>  'Erforderliche Angabe für diesen Anwendungsfall fehlt',
         'Z31' =>  'Geschäftsvorfall wird vom Empfänger zurückgewiesen',
         'Z34' =>  'Zeitintervall negativ',
+        'Z35' =>  'Format nicht eingehalten',
+        'Z37' =>  'Geschäftsvorfall darf vom Sender nicht gesendet werdenFormat nicht eingehalten',
     ]
 ];
