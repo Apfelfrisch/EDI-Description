@@ -9,6 +9,7 @@ function edifactDesciption($type) : array
         'remadv' => '/remadv-description.php',
         'invoic' => '/invoic-description.php',
         'aperak' => '/aperak-description.php',
+        'orders' => '/orders-description.php',
     ];
 
     $type = strtolower($type);
