@@ -14,6 +14,9 @@ return [
         'A06' => 'Vertrag wurde bereits zum angefragten Kündigungstermin gekündigt',
         'A11' => 'Zustimmung',
     ],
+    'E_0401' => [
+        'A06' => 'Bestätigung der Abmeldung',
+    ],
     'E_0403' => [
         'A31' => 'Zustimmung der Abmeldeanfrage zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde) genannten Termin',
         'A34' => 'Der LFA beendet die Belieferung und teilt sein Lieferendedatum in der Antwort mit',

@@ -78,6 +78,14 @@ return [
         'A12' => 'Zuordnungsermächtigung fehlt',
         'A14' => 'Grundversorger ist der Marktlokation nicht zugeordnet',
     ],
+    'E_0401' => [
+        'A01' => 'Fristüberschreitung bei Aufhebung einer zukünftigen Zuordnung wegen Auszug oder Stilllegung',
+        'A02' => 'Fristüberschreitung bei Transaktionsgründen für eine Abmeldung in der Zukunft.',
+        'A03' => 'Eingangsfrist bei iMS/kME mit RLM nicht eingehalten',
+        'A04' => 'Fristüberschreitung bei kME ohne RLM/mME/ Pauschalanlage',
+        'A05' => 'Lieferende zum Abmeldedatum wurde bereits bestätigt',
+        'A99' => 'Sonstiges',
+    ],
     'E_0403' => [
         'A30' => 'Die Belieferung wurde zu dem angefragten Termin aus der Abmeldeanfrage bereits beendet und eine Abmeldung von dem LFA bereits versendet, die durch den NB bereits bestätigt wurde',
         'A32' => 'Es handelt sich nicht um einen Einzug, da der Kunde aus der Abmeldeanfrage identisch mit dem Kunden beim LFA ist',
