@@ -114,4 +114,9 @@ return [
         'AMR' => 'fernauslesbare Zähler',
         'MMR' => 'manuell ausgelesene Zähler',
     ],
+
+    'aggregation_responsible' => [
+        'ZA9' => 'ÜNB',
+        'ZA8' => 'NB',
+    ],
 ];
