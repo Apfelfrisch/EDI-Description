@@ -59,7 +59,6 @@ return [
 
     'invoice_type' => [
         'ABR' => 'Abschlussrechnung',
-        'EMV' =>  'Abschlagsrechnung',
         'ABS' =>  'Abschlagsrechnung',
         'JVR' =>  'Turnusrechnung',
         'MVR' =>  'Monatsrechnung',
