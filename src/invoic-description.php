@@ -67,5 +67,6 @@ return [
         '13I' =>  'Integrierte 13.',
         '13R' =>  '13. Rechnung',
         'MSB' =>  'Rechnung für Messstellenbetrieb',
+        'SOR' => 'Sonderrechnung'
     ],
 ];
