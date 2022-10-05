@@ -10,6 +10,7 @@ class PathResolver
         'invoic' => '/invoic-description.php',
         'aperak' => '/aperak-description.php',
         'orders' => '/orders-description.php',
+        'mscons' => '/mscons-description.php',
     ];
 
     public static function getFor($description)
