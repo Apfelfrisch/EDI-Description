@@ -50,6 +50,9 @@ return [
     'E_0456' => [
         'A05' => 'Zustimmung',
     ],
+    'E_0502' => [
+        'A10' => 'Zustimmung',
+    ],
     'S_0005' => [
         'E15' => 'Zustimmung ohne Korrekturen',
     ],
