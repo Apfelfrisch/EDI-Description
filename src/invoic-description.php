@@ -67,6 +67,9 @@ return [
         '13I' =>  'Integrierte 13.',
         '13R' =>  '13. Rechnung',
         'MSB' =>  'Rechnung für Messstellenbetrieb',
-        'SOR' => 'Sonderrechnung'
+        'SOR' => 'Sonderrechnung',
+        'Z43' => 'Rechnung für Sperren und Wiederinbetriebnahme',
+        'Z44' => 'Verzugskostenrechnung',
+        'Z45' => 'Blindarbeitrechnung',
     ],
 ];
