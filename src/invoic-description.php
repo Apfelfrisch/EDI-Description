@@ -61,7 +61,7 @@ return [
         '1-01-7-003' => 'Leistung',
         '1-01-7-004' => 'Wirkarbeit',
         '1-01-8' => '§ 14a EnWG',
-        '1-02-0-001' => 'Grundpreis',
+        '1-02-0-001' => 'Grundpreis (Tag)',
         '1-02-0-002' => 'Wirkarbeit',
         '1-02-0-004' => 'Grundpreis Wärmepumpe',
         '1-02-0-005' => 'Wirkarbeit Straßenbeleuchtung',
