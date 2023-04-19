@@ -58,11 +58,12 @@ return [
         'A03' => 'Keine Identifizierung einer Marktlokation',
         'A04' => 'Mehrere Marktlokationen wurden identifiziert, Kunde war bei keiner bzw. mehreren Marktlokationen zugeordnet',
         'A05' => 'Teil einer Kundenanlage, die derzeit nicht separat bilanziert wird',
+        'A07' => 'Zum Kündigungstermin besteht kein Vertragsverhältnis mehr.',
+        'A08' => 'Vertragsbindung bei bereits in der Zukunft beendetem Vertrag.',
         'A13' => 'Empfänger ist zum angefragten Zeitpunkt nicht zugeordnet',
         'A07' => 'Zum Kündigungstermin besteht kein Vertragsverhältnis mehr',
         'A08' => 'Vertragsbindung bei bereits in der Zukunft beendetem Vertrag',
         'A09' => 'Vertragsbindung',
-        'A99' => 'Sonstiges',
     ],
     'E_0462' => [
         'A01' => 'Marktlokation ist nicht identifizierbar',
