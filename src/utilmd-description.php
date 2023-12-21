@@ -55,6 +55,10 @@ return [
         'ZP2' => 'Stammdatensynchronisation Korrektur des Beginns der Aggregationsverantowrtung',
         'ZT4' => 'Ende wegen Kündigung durch LF',
         'ZT5' => 'Ende wegen Kündigung durch Kunde/LFN',
+        'ZS3' => 'Nicht bila.rel. Änderung NNA vom NB an Marktlokation',
+        'ZS5' => 'Nicht bila.rel. Änderung Abrechnung Blindarbeit vom NB',
+        'ZS6' => 'Nicht bila.rel. Anfrage Abrechnung Blindarbeit an NB',
+        'ZS8' => 'Nicht bila.rel. Anfrage Abrechnung Blindarbeit an LF',
     ],
 
     'accepted_answer' => include(__DIR__ . '/utilmd-accepted-answers.php'),
