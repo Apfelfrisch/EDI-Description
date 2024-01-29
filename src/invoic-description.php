@@ -93,6 +93,8 @@ return [
         '1-10-3-001' => 'Umlage abschaltbare Lasten',
         '1-10-4' => '§ 19 StromNEV Umlage',
         '1-10-4-001' => '§ 19 StromNEV Umlage',
+        '1-10-4-002' => '§ 19 StromNEV Umlage',
+        '1-10-4-003' => '§ 19 StromNEV Umlage',
     ],
 
     'bgm_type' => [
