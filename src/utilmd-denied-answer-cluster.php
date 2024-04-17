@@ -84,7 +84,10 @@ return [
         'A02' => 'Fristüberschreitung bei Transaktionsgründen für eine Abmeldung in der Zukunft.',
         'A03' => 'Eingangsfrist bei iMS/kME mit RLM nicht eingehalten',
         'A04' => 'Fristüberschreitung bei kME ohne RLM/mME/ Pauschalanlage',
-        'A05' => 'Lieferende zum Abmeldedatum wurde bereits bestätigt',
+        'A07' => 'Lieferende zum Abmeldedatum wurde bereits bestätigt',
+        'A08' => 'Lieferende zum Abmeldedatum wurde aus gleichem Grund bereits bestätigt',
+        'A10' => 'Die Aufhebung einer zukünftigen Zuordnung muss zum Datum (Zeitpunkt) angegeben werden, wie im Lieferbeginn bestätigt',
+        'A11' => 'Die Marklokation wurde nicht innerhalb der letzten 3 Monate zur Ersatz-/ Grundversorgung angemeldet. Somit kann es sich nicht um eine Beendigung einer ESV handeln',
         'A99' => 'Sonstiges',
     ],
     'E_0403' => [

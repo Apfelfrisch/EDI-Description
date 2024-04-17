@@ -16,6 +16,7 @@ return [
     ],
     'E_0401' => [
         'A06' => 'Bestätigung der Abmeldung',
+        'A09' => 'Erneute Bestätigung der Abmeldung aufgrund der Information, dass der Anschlussnutzer nicht mehr an der Marktlokation vorhanden ist.',
     ],
     'E_0403' => [
         'A31' => 'Zustimmung der Abmeldeanfrage zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde) genannten Termin',
