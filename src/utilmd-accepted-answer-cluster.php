@@ -27,6 +27,18 @@ return [
     'E_0404' => [
         'A51' => 'Zustimmung',
     ],
+    'E_0408' => [
+        'A01' => 'Der Empfänger übernimmt die Stammdaten ohne Anmerkung.',
+        'A02' => 'Der Empfänger übernimmt die Stammdaten. Er teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück.',
+    ],
+    'E_0410' => [
+        'A01' => 'Der Empfänger übernimmt die Stammdaten ohne Anmerkung.',
+        'A02' => 'Der Empfänger übernimmt die Stammdaten. Er teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück.',
+    ],
+    'E_0412' => [
+        'A01' => 'Der Empfänger übernimmt die Stammdaten ohne Anmerkung.',
+        'A02' => 'Der Empfänger übernimmt die Stammdaten. Er teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück.',
+    ],
     'E_0439' => [
         'A06' => 'Zustimmung ohne Korrekturen',
     ],
@@ -36,14 +48,13 @@ return [
     'E_0455' => [
         'A15' => 'Stammdaten wurden widerspruchsfrei übernommen',
     ],
-    'S_0001' => [
-        'E15' => 'Zustimmung ohne Korrekturen',
-        'Z01' => 'Zustimmung mit Terminänderung',
+    'E_0610' => [
+        'A01' => 'Der Empfänger übernimmt die Stammdaten ohne Anmerkung.',
+        'A02' => 'Der Empfänger übernimmt die Stammdaten. Er teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück.',
     ],
-    'S_0003' => [
-        'E15' => 'Zustimmung ohne Korrekturen',
-        'Z43' => 'Zustimmung mit Korrektur von bilanzierungsrel. Daten',
-        'Z44' => 'Zustimmung mit Korrektur von nicht bilanzierungsrel. Daten',
+    'E_0611' => [
+        'A01' => 'Der Empfänger übernimmt die Stammdaten ohne Anmerkung.',
+        'A02' => 'Der Empfänger übernimmt die Stammdaten. Er teilt mit der Qualitätsrückmeldung mit, dass diese Stammdaten aus seiner Sicht nicht korrekt sind. Er gibt die aus seiner Sicht korrekten Stammdaten als Qualitätsrückmeldung zurück.',
     ],
     'E_0453' => [
         'A13' => 'Stammdaten wurden widerspruchsfrei übernommen.'
@@ -53,6 +64,47 @@ return [
     ],
     'E_0502' => [
         'A10' => 'Zustimmung',
+    ],
+    'E_0607' => [
+        'A11' => 'Bestätigung der Abmeldung',
+        'A27' => 'Zustimmung',
+    ],
+    'E_0609' => [
+        'A06' => 'Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor)',
+        'A07' => 'Deaktivierung der Zuordnungsermächtigung für den der Marktlokation zugeordneten ZRT hat stattgefunden.',
+        'A10' => 'Lieferende wird zugestimmt',
+        'A25' => 'Es liegt eine Änderung auf einen Zeitreihentyp vor, für welchen eine Zuordnungsermächtigung besteht. (Zuordnungsermächtigung liegt vor)',
+        'A26' => 'Deaktivierung der Zuordnungsermächtigung für den der Marktlokation bzw. Tranche zugeordneten ZRT hat stattgefunden.',
+        'A29' => 'Lieferende wird zugestimmt',
+    ],
+    'E_0614' => [
+        'A03' => 'Vertrag wurde bereits zum angefragten Kündigungstermin gekündigt.',
+        'A09' => 'Zustimmung',
+        'A12' => 'Vertrag wurde bereits zum angefragten Kündigungstermin gekündigt.',
+        'A17' => 'Zustimmung',
+    ],
+    'E_0623' => [
+        'A51' => 'Zustimmung.',
+        'A58' => 'Zustimmung.',
+        'A55' => 'Zustimmung.',
+        'A56' => 'Zustimmung, unter Bildung einer neuen Tranche',
+    ],
+    'E_0624' => [
+        'A31' => 'Zustimmung der Anfrage zur Beendigung der Zuordnung zum in der bereits versendeten',
+        'A34' => 'Der LFA beendet die Belieferung und teilt sein Lieferendedatum in der Antwort mit.',
+        'A38' => 'Ersatzversorgung wurde zum angefragten Termin beendet.',
+        'A36' => 'Vertragsverhältnis wurde zum angefragten oder davor liegenden Termin beendet.',
+        'A42' => 'Zustimmung der Anfrage zur Beendigung der Zuordnung zum in der bereits versendeten Abmeldung (welche noch nicht beantwortet wurde) genannten Termin.',
+        'A40' => 'Vertragsverhältnis wurde zum angefragten oder davor liegenden Termin beendet.',
+    ],
+    'S_0001' => [
+        'E15' => 'Zustimmung ohne Korrekturen',
+        'Z01' => 'Zustimmung mit Terminänderung',
+    ],
+    'S_0003' => [
+        'E15' => 'Zustimmung ohne Korrekturen',
+        'Z43' => 'Zustimmung mit Korrektur von bilanzierungsrel. Daten',
+        'Z44' => 'Zustimmung mit Korrektur von nicht bilanzierungsrel. Daten',
     ],
     'S_0005' => [
         'E15' => 'Zustimmung ohne Korrekturen',
