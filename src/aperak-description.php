@@ -1,4 +1,5 @@
 <?php
+
 return [
     'name' => 'Aperak Segment Beschreibung',
 
@@ -23,5 +24,9 @@ return [
         'Z34' =>  'Zeitintervall negativ',
         'Z35' =>  'Format nicht eingehalten',
         'Z37' =>  'Geschäftsvorfall darf vom Sender nicht gesendet werdenFormat nicht eingehalten',
-    ]
+        'Z38' =>  'Anzahl der übermittelten Codes überschreitet Paketdefinition',
+        'Z39' =>  'Code nicht aus erlaubtem Wertebereich',
+        'Z40' =>  'Segment- bzw. Segmentgruppenwiederholbarkeit überschritten',
+        'Z41' =>  'Zeitangabe unplausibel',
+    ],
 ];
