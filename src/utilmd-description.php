@@ -1,4 +1,5 @@
 <?php
+
 return [
     'name' => 'Utilmd Segment Beschreibung',
 
@@ -119,7 +120,7 @@ return [
 
     'answer' => array_merge(
         include(__DIR__ . '/utilmd-accepted-answers.php'),
-        include(__DIR__ . '/utilmd-denied-answers.php')
+        include(__DIR__ . '/utilmd-denied-answers.php'),
     ),
 
     'supply_direction' => [
@@ -152,8 +153,8 @@ return [
     ],
     //Strom + Gas
     'forecast_type' => [
-        'ZA6' => 'SLP',
-        'ZC0' => 'RLM',
+        'ZA6' => 'Prognose auf Basis von Profilen',
+        'ZC0' => 'Prognose auf Basis von Werten',
     ],
 
     'customer_group' => [
